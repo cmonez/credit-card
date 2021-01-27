@@ -4,12 +4,11 @@ const FormContainer = styled.div`
   font-size: 1.5em;
   text-align: center;
   color: white;
-  height: 100px;
-  width: 50px;
   background-color: white;
   position: absolute;
-  top: 35%;
-  left: 50%;
+  width: 40%;
+  height: 70%;
+  top: 20%;
 `;
 
 export default FormContainer;

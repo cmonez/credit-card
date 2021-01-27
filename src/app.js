@@ -1,13 +1,16 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './styles/globalStyles';
+import MainContainer from './styles/MainContainer';
 import FormContainer from './styles/Form';
+
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <h1>Credit</h1>
-      <FormContainer></FormContainer>
+      <MainContainer>
+        <FormContainer></FormContainer>
+      </MainContainer>
     </Fragment>
   );
 }
