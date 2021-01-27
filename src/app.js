@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import GlobalStyle from './styles/globalStyles';
 import MainContainer from './styles/MainContainer';
 import CreditCardFormContainer from './styles/CreditCardFormContainer';
-import CreditCardInput from './styles/CreditCardInput';
+import CreditCardInput, { CVVInput } from './styles/CreditCardInput';
 import DateYearCVVContainer from './styles/DateYearCVVContainer';
 import MonthSelector from './styles/MonthSelector';
 
@@ -26,6 +26,7 @@ function App() {
               <option value="2022">2022</option>
               <option value="2023">2023</option>
             </MonthSelector>
+            <CVVInput></CVVInput>
           </DateYearCVVContainer>
         </CreditCardFormContainer>
       </MainContainer>
