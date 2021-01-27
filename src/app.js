@@ -4,6 +4,8 @@ import GlobalStyle from './styles/globalStyles';
 import MainContainer from './styles/MainContainer';
 import CreditCardFormContainer from './styles/CreditCardFormContainer';
 import CreditCardInput from './styles/CreditCardInput';
+import DateYearCVVContainer from './styles/DateYearCVVContainer';
+import MonthSelector from './styles/MonthSelector';
 
 function App() {
   return (
@@ -13,6 +15,18 @@ function App() {
         <CreditCardFormContainer>
           <CreditCardInput />
           <CreditCardInput />
+          <DateYearCVVContainer>
+            <MonthSelector>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+            </MonthSelector>
+            <MonthSelector>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+            </MonthSelector>
+          </DateYearCVVContainer>
         </CreditCardFormContainer>
       </MainContainer>
     </Fragment>
