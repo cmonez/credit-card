@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FormContainer = styled.div`
+const CreditCardFormContainer = styled.div`
   font-size: 1.5em;
   text-align: center;
   color: white;
@@ -9,6 +9,9 @@ const FormContainer = styled.div`
   width: 40%;
   height: 70%;
   top: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;
 
-export default FormContainer;
+export default CreditCardFormContainer;
