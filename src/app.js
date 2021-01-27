@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './styles/globalStyles';
 import MainContainer from './styles/MainContainer';
-import FormContainer from './styles/CreditCardFormContainer';
+import CreditCardFormContainer from './styles/CreditCardFormContainer';
 import CreditCardInput from './styles/CreditCardInput';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <GlobalStyle />
       <MainContainer>
         <CreditCardFormContainer>
+          <CreditCardInput />
           <CreditCardInput />
         </CreditCardFormContainer>
       </MainContainer>
