@@ -11,11 +11,21 @@ import MonthSelector from './styles/MonthSelector';
 import SubmitButton from './styles/SubmitButton';
 import styled from 'styled-components';
 
+const CreditCard = styled.div`
+  z-index: 99;
+  width: 30%;
+  height: 210px;
+  margin-top: 3%;
+  border-radius: 20px;
+  background-color: orange;
+`;
+
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
       <MainContainer>
+        <CreditCard>hasdfasdfasdfasey</CreditCard>
         <CreditCardFormContainer>
           <BottomHalfContainer>
             <CreditCardInput />
