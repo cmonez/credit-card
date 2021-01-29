@@ -12,12 +12,13 @@ import SubmitButton from './styles/SubmitButton';
 import styled from 'styled-components';
 
 const CreditCard = styled.div`
+  margin-bottom: 70%;
   z-index: 99;
-  width: 30%;
-  height: 210px;
-  margin-top: 3%;
-  border-radius: 20px;
-  background-color: orange;
+  height: 45%;
+  border-radius: 10px;
+  position: absolute;
+  background-color: pink;
+  width: 80%;
 `;
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
     <Fragment>
       <GlobalStyle />
       <MainContainer>
-        <CreditCard>hasdfasdfasdfasey</CreditCard>
         <CreditCardFormContainer>
+          <CreditCard>FUCK</CreditCard>
           <BottomHalfContainer>
             <CreditCardInput />
             <CreditCardInput />
