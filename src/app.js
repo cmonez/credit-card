@@ -15,7 +15,10 @@ import MasterCardLogo from './components/MasterCardLogo';
 
 const CreditCard = styled.div`
   position: absolute;
-  background-color: pink;
+  background: #ff0bee;
+  background: -webkit-linear-gradient(bottom right, #ff0bee, #fbfe1a);
+  background: -moz-linear-gradient(bottom right, #ff0bee, #fbfe1a);
+  background: linear-gradient(to top left, #ff0bee, #fbfe1a);
   margin-top: 275px;
   width: 400px;
   z-index: 1;
