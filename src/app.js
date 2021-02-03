@@ -10,7 +10,7 @@ import DateYearCVVContainer from './styles/DateYearCVVContainer';
 import MonthSelector from './styles/MonthSelector';
 import SubmitButton from './styles/SubmitButton';
 import styled from 'styled-components';
-
+import MasterCardLogo from './components/';
 const CreditCard = styled.div`
   margin-bottom: 70%;
   z-index: 99;
@@ -25,6 +25,7 @@ function App() {
   return (
     <Fragment>
       <GlobalStyle />
+      <image src="public/assets/mastercard.svg"></image>
       <MainContainer>
         <CreditCardFormContainer>
           <CreditCard>FUCK</CreditCard>
@@ -47,6 +48,7 @@ function App() {
             <SubmitButton>Hey</SubmitButton>
           </BottomHalfContainer>
         </CreditCardFormContainer>
+        <MasterCardLogo dimensions={{ height: '100px', width: '100px' }} />
       </MainContainer>
     </Fragment>
   );
