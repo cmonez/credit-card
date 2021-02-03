@@ -24,6 +24,9 @@ const CreditCard = styled.div`
   z-index: 1;
   height: 220px;
   border-radius: 15px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
 `;
 
 function App() {
