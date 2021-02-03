@@ -10,25 +10,29 @@ import DateYearCVVContainer from './styles/DateYearCVVContainer';
 import MonthSelector from './styles/MonthSelector';
 import SubmitButton from './styles/SubmitButton';
 import styled from 'styled-components';
-import MasterCardLogo from './components/';
+import SkyLine from './components/SkyLine';
+import MasterCardLogo from './components/MasterCardLogo';
+
 const CreditCard = styled.div`
-  margin-bottom: 70%;
-  z-index: 99;
-  height: 45%;
-  border-radius: 10px;
   position: absolute;
   background-color: pink;
-  width: 80%;
+  margin-top: 15%;
+  width: 400px;
+  z-index: 1;
+  height: 220px;
+  border-radius: 15px;
 `;
 
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <image src="public/assets/mastercard.svg"></image>
       <MainContainer>
+        <CreditCard>
+          Yes!!
+          <SkyLine dimensions={{ width: '100%', height: '50%' }} />
+        </CreditCard>
         <CreditCardFormContainer>
-          <CreditCard>FUCK</CreditCard>
           <BottomHalfContainer>
             <CreditCardInput />
             <CreditCardInput />

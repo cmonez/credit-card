@@ -3,8 +3,8 @@ import React from 'react';
 const MasterCardLogo = ({ dimensions }) => {
   return (
     <svg
-      width={dimensions.height}
-      height={dimensions.width}
+      width={dimensions.width}
+      height={dimensions.height}
       viewBox="0 -222 2000 2000"
       id="Laag_1"
       data-name="Laag 1"
