@@ -16,7 +16,7 @@ import MasterCardLogo from './components/MasterCardLogo';
 const CreditCard = styled.div`
   position: absolute;
   background-color: pink;
-  margin-top: 15%;
+  margin-top: 275px;
   width: 400px;
   z-index: 1;
   height: 220px;
@@ -29,7 +29,8 @@ function App() {
       <GlobalStyle />
       <MainContainer>
         <CreditCard>
-          Yes!!
+          Hello
+          <MasterCardLogo dimensions={{ height: '50px', width: '50px' }} />
           <SkyLine dimensions={{ width: '100%', height: '50%' }} />
         </CreditCard>
         <CreditCardFormContainer>
@@ -52,7 +53,6 @@ function App() {
             <SubmitButton>Hey</SubmitButton>
           </BottomHalfContainer>
         </CreditCardFormContainer>
-        <MasterCardLogo dimensions={{ height: '100px', width: '100px' }} />
       </MainContainer>
     </Fragment>
   );
