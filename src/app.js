@@ -14,12 +14,12 @@ import SkyLine from './components/SkyLine';
 import MasterCardLogo from './components/MasterCardLogo';
 
 const CreditCard = styled.div`
-  position: absolute;
   background: #ff0bee;
+  position: relative;
+  margin-top: 30px;
   background: -webkit-linear-gradient(bottom right, #ff0bee, #fbfe1a);
   background: -moz-linear-gradient(bottom right, #ff0bee, #fbfe1a);
   background: linear-gradient(to top left, #ff0bee, #fbfe1a);
-  margin-top: 275px;
   width: 400px;
   z-index: 1;
   height: 220px;
@@ -35,7 +35,6 @@ function App() {
       <GlobalStyle />
       <MainContainer>
         <CreditCard>
-          Hello
           <MasterCardLogo dimensions={{ height: '50px', width: '50px' }} />
           <SkyLine dimensions={{ width: '100%', height: '50%' }} />
         </CreditCard>

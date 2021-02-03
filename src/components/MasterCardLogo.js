@@ -8,6 +8,11 @@ const MasterCardLogo = ({ dimensions }) => {
       viewBox="0 -222 2000 2000"
       id="Laag_1"
       data-name="Laag 1"
+      style={{
+        right: 0,
+        bottom: 0,
+        position: 'absolute',
+      }}
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
